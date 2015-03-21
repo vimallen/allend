@@ -7,8 +7,13 @@ dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
 }
-
-
+//DA
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
 
 /**
  * Basic styling
