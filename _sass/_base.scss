@@ -25,7 +25,7 @@ body {
     font-weight: 300;
     color: $text-color;
     background-color: $background-color;
-    -webkit-text-size-adjust: 100%;
+//	font-size: 100%;
 }
 
 
@@ -198,8 +198,8 @@ pre {
 
     > svg {
         display: inline-block;
-        width: 16px;
-        height: 16px;
+        width: 1em;
+        height: 1em;
         vertical-align: middle;
 
         path {

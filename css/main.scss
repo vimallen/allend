@@ -15,15 +15,15 @@
 */
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
 $base-font-size:   1.125em;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     1.875em;
+$spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #fdfdfd;
+$background-color: #fffff0;
 $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
@@ -31,10 +31,12 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    80%;
+$content-width:    56em;
 
-$on-palm:          37em;
-$on-laptop:        50em;
+$on-palm:		30em;
+$on-laptop:     48em;
+$on-desktop:	78.75em;	
+
 
 
 
@@ -50,16 +52,25 @@ $on-laptop:        50em;
         @content;
     }
 }
-
+// Attempt at min-width mq
+@mixin media-query-min($device) {
+	@media screen and (min-width: $device) {
+		@content;
+	}
+}
 @include media-query($on-palm) {
-    .mq {
-//        padding-right: $spacing-unit / 4;
-//        padding-left: $spacing-unit / 4;
-		  background-color: #bab529;
-		
-		
+    .mq  {
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
     }
 }
+
+@include media-query-min($on-desktop) {
+			p {
+				max-width: 600px;
+			}
+}
+
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
@@ -68,3 +79,7 @@ $on-laptop:        50em;
         "layout",
         "syntax-highlighting"
 ;
+
+img * + * {
+			margin-top: 30px;
+}
