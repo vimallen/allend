@@ -12,6 +12,8 @@
 21 / 16 = 1.3125em 	(21px equivalent)
 24 / 16 = 1.5em 	(24px equivalent)
 30 / 16 = 1.875em 	(30px equivalent)
+32 / 16 = 2em
+34 / 16 = 2.125em
 */
 
 // Our variables
@@ -23,8 +25,9 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #fffff0;
-$brand-color:      #2a7ae2;
+$background-color: ivory;
+$brand-color:      orangered;
+$site-title-color:	darkred;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -59,7 +62,7 @@ $on-desktop:	78.75em;
 	}
 }
 @include media-query($on-palm) {
-    .mq  {
+    .bg  {
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
     }
@@ -68,6 +71,9 @@ $on-desktop:	78.75em;
 @include media-query-min($on-desktop) {
 			p {
 				max-width: 600px;
+			}
+			.site-header	{
+				padding-top: 2em;
 			}
 }
 
@@ -81,5 +87,5 @@ $on-desktop:	78.75em;
 ;
 
 img * + * {
-			margin-top: 30px;
+			margin-top: 1em;
 }
