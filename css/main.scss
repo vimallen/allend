@@ -26,7 +26,7 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: ivory;
-$brand-color:      orangered;
+$brand-color:      tomato;
 $site-title-color:	darkred;
 
 $grey-color:       #828282;
@@ -78,7 +78,6 @@ $on-desktop:	78.75em;
 }
 
 
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
@@ -86,6 +85,7 @@ $on-desktop:	78.75em;
         "syntax-highlighting"
 ;
 
-img * + * {
-			margin-top: 1em;
+.post-content > * + *          {
+			margin-top: 3em;
+//			border-top: 4px solid ;
 }
