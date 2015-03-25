@@ -6,13 +6,13 @@ permalink: /automating-pdf-export-from-indesign-for-large-documents/
 categories:
   - Design and print
 ---
-Exporting PDFs from InDesign is simple enough. Cmd + E / Ctrl + E. And it is a speedy enough process for documents with relatively few pages. But it is common practice for large-extent documents for the artwork to be packaged into a folder for each spread. I am currently working on a 488 page catalogue. My directory structure looks like this:
+<p>Exporting PDFs from InDesign is simple enough. Cmd + E / Ctrl + E. And it is a speedy enough process for documents with relatively few pages. But it is common practice for large-extent documents for the artwork to be packaged into a folder for each spread. I am currently working on a 488 page catalogue. My directory structure looks like this:
+</p>
+<figure><img src="../images/Folders.png" alt="Small hill in Scotland"></figure>
 
-<img class="alignnone wp-image-742 size-full" src="http://www.daveallengraphics.com/wp-content/uploads/2014/04/Folders.png" alt="Folders" width="497" height="472" /> 
+<p>Manually exporting to PDF in this situation can be surprisingly time-consuming.</p>
 
-Manually exporting to PDF in this situation can be surprisingly time-consuming.<!--more-->
-
-Let us say, conservatively, that it take 3 minutes to manually export a 2pp InDesign file. (File > Export left hand page > Name resulting PDF. Repeat for right hand page). For our 488pp catalogue this amounts to 12 hours of work. Factor in errors and each spread could take 5 minutes to process. That would require 20 hours of work.
+<p>Let us say, conservatively, that it take 3 minutes to manually export a 2pp InDesign file. (File > Export left hand page > Name resulting PDF. Repeat for right hand page). For our 488pp catalogue this amounts to 12 hours of work. Factor in errors and each spread could take 5 minutes to process. That would require 20 hours of work.</p>
 
 Fortunately Peter Kahrel has written a script, batch_convert.jsxbin, which works brilliantly and includes all the sub folders in your artwork directory.
 
