@@ -1,10 +1,9 @@
 ---
 title: Getting things printed
-author: admin
+author: Dave Allen
 layout: post
 permalink: /getting-things-printed/
-categories:
-  - Design and print
+categories: design
 ---
 So, how will you know the colour of the final print job will be the same as the proofs you signed off? How do you avoid those unexpected extra costs? How can you ensure you always get the best quality combined with great value from your print supplier? If you were hoping for a lengthy essay then I&#8217;m going to have to disappoint you. In fact if you are particularly pressed for time I can sum it up in four words. Choose your printer first. I&#8217;m often dismayed by how often printers are seen as the enemy, a situation that both printers and their clients have a responsibility to change. <!--more-->For the last decade or so there has been a heavy emphasis on the technology of printing. There have been good reasons for this. New technologies have changed the landscape,ranging from robot pallet stackers to stochastic screening. But we&#8217;ve forgotten something. We&#8217;ve forgotten that printing can never be a pure science. After all the calibrating, editing, colour management and proofing, the final result is still produced by rollers squeezing ink onto very hot paper at very high speed. All your efforts and expenditure now rest with the craftspeople in control of those rollers and the levels of ink on the press. To enable them to give you the benefit of their experience, your files need to have been prepared for that particular press. Not the press in the next hall. 
 

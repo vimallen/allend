@@ -1,7 +1,8 @@
 ---
 title: Contact
-author: davea
+author: Dave Allen
 layout: page
+permalink: /contact/
 ---
 [Send me an email][1]
 

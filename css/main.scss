@@ -70,7 +70,7 @@ $on-desktop:	78.75em;
 
 @include media-query-min($on-desktop) {
 			p {
-				max-width: 600px;
+				max-width: 38em;
 			}
 			.site-header	{
 				padding-top: 2em;

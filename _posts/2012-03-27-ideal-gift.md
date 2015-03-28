@@ -1,10 +1,9 @@
 ---
 title: Ideal gift
-author: admin
+author: Dave Allen
 layout: post
 permalink: /ideal-gift/
-categories:
-  - Photographs
+categories: Photographs
 ---
 These handy name plates help you remember what your home looks like. When its right in front of you.
 

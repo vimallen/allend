@@ -1,10 +1,9 @@
 ---
 title: Automating PDF export from InDesign for large documents
-author: davea
+author: Dave Allen
 layout: post
 permalink: /automating-pdf-export-from-indesign-for-large-documents/
-categories:
-  - Design and print
+categories: design
 ---
 <p>Exporting PDFs from InDesign is simple enough. Cmd + E / Ctrl + E. And it is a speedy enough process for documents with relatively few pages. But it is common practice for large-extent documents for the artwork to be packaged into a folder for each spread. I am currently working on a 488 page catalogue. My directory structure looks like this:
 </p>
@@ -31,20 +30,18 @@ This is the process I am proposing to use for the creation of 488 single page PD
 #### Step One
 
 From the InDesign scripts panel, run batch_convert.jsbin, choosing the relevant Abobe PDF preset, in this case that of my print supplier, Sterling Press.
-
-<img class="alignnone size-full wp-image-746" src="http://www.daveallengraphics.com/wp-content/uploads/2014/04/BatchProcess.jpg" alt="BatchProcess" /> 
+<figure><img src="../images/BatchProcess.jpg" alt="Acrobat Batch process dialogue"></figure>
 
 #### Step Two
 
 In the preferences of Acrobat Pro (my version is 10.1.2) uncheck ‘Save As optimises for Fast Web View’.
 
 Then in Acrobat go to > File > Create > ‘Combine files into Single PDF’
-
-[<img class="alignnone size-full wp-image-743" src="http://www.daveallengraphics.com/wp-content/uploads/2014/04/CombineFiles.png" alt="CombineFiles" />][1] 
+<img class="alignnone size-full wp-image-746" src="http://www.daveallengraphics.com/wp-content/uploads/2014/04/CombineFiles.png" alt="Acrobat Combine files dialogue" /> 
 
 At this point care needs to be taken to select the correct file size in this dialogue box. Select Larger File Size. I believe that no compression is applied to images with this setting.
 
-<img class="alignnone size-full wp-image-744" src="http://www.daveallengraphics.com/wp-content/uploads/2014/04/CombineFilesDetail.png" alt="CombineFilesDetail" /> 
+<figure><img src="../images/CombineFilesDetail.png" alt="Detail of Acrobat Combine files dialogue"></figure>
 
 So far I haven’t been able to find a way of setting this as the default when combining pages. This step will produce a file named Binder [No.]. Save this. Remember that we changed the preferences to prevent Fast Web View being applied so don&#8217;t forget to reset this for your day-to-day PDF ceation.
 
@@ -64,13 +61,11 @@ There were two issues that needed resolving:
 
 1. Are we certain that changing preferences means that Fast Web View is not applied when saving Binder[No.] at Step 2.? As far as I can tell this setting is preserved.
 
-2. The original Serling Press Adobe PDF preset had compatibility set at Acrobat 5 (PDF 1.5) When examining the document properties of the final files I found that the compatibility has been revised by Acrobat to Acrobat 7 (PDF 1.6). It may be that this is an issue for you.
+2. The original Sterling Press Adobe PDF preset had compatibility set at Acrobat 5 (PDF 1.5) When examining the document properties of the final files I found that the compatibility has been revised by Acrobat to Acrobat 7 (PDF 1.6). It may be that this is an issue for you.
 
 Unless issue #2 is of significance for your workflow, then a process that could take between 12 and 20 hours could be reduced to less than an hour. Excluding proofing of course.
 
-Thanks to the repro team at [Sterling][2] for testing my files.[  
-][3]
+Thanks to the repro team at [Sterling][2] for testing my files.
 
- [1]: http://www.daveallengraphics.com/wp-content/uploads/2014/04/CombineFiles.png
  [2]: http://www.sterlingsolutions.co.uk/ "Sterling"
- [3]: http://www.sterlingsolutions.co.uk/
+ 
