@@ -11,7 +11,7 @@ permalink: /portfolio/
 </header>
 <p>Client: {{job.client}}</p>
 <p>Description: {{job.description}}</p>
-<figure><img src="{{job.image}}"></figure>
+<figure><a href=""><img src="{{job.image}}"></a></figure>
 <p><a href="#">Read more &#8230;</a></p>
 {% endfor %}
 
