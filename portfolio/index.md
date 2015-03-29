@@ -9,10 +9,10 @@ permalink: /portfolio/
 <header>
 <h3>{{job.name}}</h3>
 </header>
-<p>{{job.client}}</p>
-<p>{{job.description}}</p>
-<img src="{{job.image}}">
-<p><a href="#">Read more...</a></p>
+<p>Client: {{job.client}}</p>
+<p>Description: {{job.description}}</p>
+<figure><img src="{{job.image}}"></figure>
+<p><a href="#">Read more &#8230;</a></p>
 {% endfor %}
 
 
