@@ -117,7 +117,7 @@ blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
-    font-size: 18px;
+	font-size: 1.125em;	/*18px;*/
     letter-spacing: -1px;
     font-style: italic;
 
@@ -133,18 +133,18 @@ blockquote {
  */
 pre,
 code {
-    font-size: 15px;
+	font-size: 0.9375em;	/*15px;*/
     border: 1px solid $grey-color-light;
     border-radius: 3px;
     background-color: #eef;
 }
 
 code {
-    padding: 1px 5px;
+	padding: 0.0625em 0.3125em;	/*1px 5px;*/
 }
 
 pre {
-    padding: 8px 12px;
+	padding: 0.5em 0.75em;	/*8px 12px;*/
     overflow-x: scroll;
 
     > code {

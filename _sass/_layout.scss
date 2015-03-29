@@ -4,7 +4,7 @@
 .site-header {
 //    border-top: 18px solid $brand-color;
 	border-bottom: 3px solid $site-title-color;
-    min-height: 56px;
+    min-height: 3.5em; /* 56px; */
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -12,7 +12,7 @@
 
 .site-title {
     font-size: 2.5em;
-    line-height: 1.5;
+    line-height: 1.25em;
 //    letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
@@ -26,7 +26,7 @@
 
 .site-nav {
     float: right;
-    line-height: 56px;
+    line-height: 1.5;
 
     .menu-icon {
         display: none;
@@ -38,14 +38,14 @@
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
-            margin-left: 20px;
+            margin-left: 1.25em; /* 20px;	*/
         }
     }
 
     @include media-query($on-palm) {
         position: absolute;
-        top: 9px; 
-        right: 30px;
+        top: 0.5625em;/*9px*/ 
+        right: 1.875em;	/* 30px; */
         background-color: $background-color;
         border: 1px solid $grey-color-light;
         border-radius: 5px;
@@ -54,15 +54,15 @@
         .menu-icon {
             display: block;
             float: right;
-            width: 36px;
-            height: 26px;
+			width: 2.253em;	/*36px;*/
+			height: 1.625em;	/*26px;*/
             line-height: 0;
-            padding-top: 10px;
+			padding-top: 0.625em;	/*10px;*/
             text-align: center;
 
             > svg {
-                width: 18px;
-                height: 15px;
+				width: 1.125em;	/*18px;*/
+				height: 0.9375em;	/*15px;*/
 
                 path {
                     fill: $grey-color-dark;
@@ -77,12 +77,12 @@
 
         &:hover .trigger {
             display: block;
-            padding-bottom: 5px;
+			padding-bottom: 0.3125em;	/*5px;*/
         }
 
         .page-link {
             display: block;
-            padding: 5px 10px;
+			padding: 0.3125em 0.625em;	/*5px 10px;*/
         }
     }
 }
@@ -98,7 +98,7 @@
 }
 
 .footer-heading {
-    font-size: 18px;
+	font-size: 1.375em;	/*18px;*/
     margin-bottom: $spacing-unit / 2;
 }
 
@@ -109,7 +109,7 @@
 }
 
 .footer-col-wrapper {
-    font-size: 15px;
+	font-size: 0.9375em;	/*15px;*/
     color: $grey-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
@@ -167,7 +167,7 @@
 }
 
 .page-heading {
-    font-size: 20px;
+	font-size: 1.25em;	/*20px;*/
 }
 
 .post-list {
@@ -186,7 +186,7 @@
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: 1.5em; 	/*24px;*/
 }
 
 
@@ -212,26 +212,26 @@
     margin-bottom: $spacing-unit;
 
     h2 {
-        font-size: 32px;
+        font-size: 2em;	/*32px;*/
 
         @include media-query($on-laptop) {
-            font-size: 28px;
+            font-size: 1.75em;	/*28px;*/
         }
     }
 
     h3 {
-        font-size: 26px;
+		font-size: 1.625em;	/*26px;*/
 
         @include media-query($on-laptop) {
-            font-size: 22px;
+			font-size: 1.375em;	/*22px;*/
         }
     }
 
     h4 {
-        font-size: 20px;
+        font-size: 1.25em;	/*20px;*/
 
         @include media-query($on-laptop) {
-            font-size: 18px;
+            font-size: 1.125em;	/*18px;*/
         }
     }
 }
