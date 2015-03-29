@@ -34,9 +34,6 @@
 
 
 
-
-
-
 // Our variables
 $base-font-family: Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
 $base-font-size:   1.125em;
@@ -45,10 +42,10 @@ $base-line-height: 1.5;
 
 $spacing-unit:     1.875em;
 
-$text-color:       #111;
-$background-color: ivory;
-$brand-color:      orangered;
-$site-title-color:	darkred;
+$text-color:       #444444;			
+$background-color: whitesmoke; /*#f8f3ef*/ 
+$link-color:      orangered;  /*#e75100*/
+$brand-color:	darkslategray;	/*#2f4f4f*/ 
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);

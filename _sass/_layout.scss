@@ -2,9 +2,10 @@
  * Site header
  */
 .site-header {
-//    border-top: 18px solid $brand-color;
-	border-bottom: 3px solid $site-title-color;
+	border-top: 18px solid $brand-color;
+	border-bottom: 3px solid $brand-color;
     min-height: 3.5em; /* 56px; */
+	padding-top: 1em;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -16,11 +17,11 @@
 //    letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-	color: $site-title-color;	
+	color: $brand-color;	
 
     &,
     &:visited {
-		color: $site-title-color;
+		color: $brand-color;
     }
 }
 
@@ -202,6 +203,7 @@
 	font-size: 1.875em;
     letter-spacing: -1px;
     line-height: 1;
+	color: lighten($brand-color, 9);
 
     @include media-query($on-laptop) {
         font-size: 1.5em;
