@@ -23,7 +23,7 @@
 26 / 16 = 1.625em;	(26px equivalent)
 28 / 16 = 1.75em;	(28px equivalent)
 30 / 16 = 1.875em; 	(30px equivalent)
-32 / 16 = 2em;       (32px equivalent)
+32 / 16 = 2em;      (32px equivalent)
 34 / 16 = 2.125em;	(34px equivalent)
 36 / 16 = 2.253em;	(36px equivalent)
 
@@ -33,8 +33,8 @@
 
 
 // Our variables
-$base-font-family: Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
-$base-font-size:   1.125em;
+$base-font-family: Verdana,Geneva,sans-serif;
+$base-font-size:   1em;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
@@ -42,8 +42,9 @@ $spacing-unit:     1.875em;
 
 $text-color:       #444444;			
 $background-color: whitesmoke; /*#f8f3ef*/ 
-$link-color:      orangered;  /*#e75100*/
-$brand-color:	darkslategray;	/*#2f4f4f*/ 
+$link-color: royalblue;  /*#*/
+$brand-color: firebrick;	/*#*/ 
+$hover-color: dimgray;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);

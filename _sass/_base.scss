@@ -8,12 +8,12 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 //DA
-html {
-	box-sizing: border-box;
-}
-*, *:before, *:after {
-	box-sizing: inherit;
-}
+//html {
+//	box-sizing: border-box;
+//}
+//*, *:before, *:after {
+//	box-sizing: inherit;
+//}
 
 /**
  * Basic styling
@@ -103,7 +103,7 @@ a {
     }
 
     &:hover {
-		color: lighten(#2f4f4f, 9);
+		color: $hover-color;
         text-decoration: underline;
     }
 }
