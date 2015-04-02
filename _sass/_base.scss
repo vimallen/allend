@@ -58,6 +58,7 @@ img {
 figure > img {
     display: block;
 	margin-bottom: 3em;
+	border: 3px solid lighten($background-color, 6%);
 }
 
 figcaption {

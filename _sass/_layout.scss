@@ -30,7 +30,7 @@
 
 	&,
 	&:hover {
-		color: $hover-color;
+		color: darken($background-color, 20%);
 	}
 
 
@@ -96,6 +96,7 @@
         .page-link {
             display: block;
 			padding: 0.3125em 0.625em;	/*5px 10px;*/
+			color: $brand-color;
         }
     }
 }
