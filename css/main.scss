@@ -34,11 +34,11 @@
 
 // Our variables
 $base-font-family: Verdana,Geneva,sans-serif;
-$base-font-size:   1em;
+$base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     1.875em;
+$spacing-unit: 30px;
 
 $text-color: #444444; 			
 $background-color: #EBEBDB; /* */ 
@@ -51,27 +51,14 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
-/* Palette
-#C01304
-#A0C004
-
-
-
-
-
-
-*/
 // Width of the content area
-$content-width:    56em;
+$content-width:    80%;
 
-$on-palm:		30em;
-$on-laptop:     48em;
-$on-desktop:	78.75em;	
-
-
+$on-palm:	480px;
+$on-laptop:     768px;
+$on-desktop:	1248px;	
 
 
-// Using media queries with like this:
 // @include media-query($on-palm) {
 //     .wrapper {
 //         padding-right: $spacing-unit / 2;
@@ -91,12 +78,9 @@ $on-desktop:	78.75em;
 }
 
 
-@include media-query-min($on-desktop) {
+@include media-query-min($on-laptop) {
 			p {
-				max-width: 38em;
-			}
-			.site-header	{
-				padding-top: 2em;
+				max-width: 608px;
 			}
 }
 

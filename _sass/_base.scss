@@ -7,13 +7,6 @@ dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
 }
-//DA
-//html {
-//	box-sizing: border-box;
-//}
-//*, *:before, *:after {
-//	box-sizing: inherit;
-//}
 
 /**
  * Basic styling
@@ -57,7 +50,7 @@ img {
  */
 figure > img {
     display: block;
-	margin-bottom: 3em;
+	margin-bottom: 48px;
 	border: 3px solid lighten($background-color, 6%);
 }
 
@@ -118,7 +111,7 @@ blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
-	font-size: 1.125em;	/*18px;*/
+	font-size: 8px;
     letter-spacing: -1px;
     font-style: italic;
 
@@ -134,18 +127,18 @@ blockquote {
  */
 pre,
 code {
-	font-size: 0.9375em;	/*15px;*/
+	font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
     background-color: #eef;
 }
 
 code {
-	padding: 0.0625em 0.3125em;	/*1px 5px;*/
+	padding: 1px 5px;
 }
 
 pre {
-	padding: 0.5em 0.75em;	/*8px 12px;*/
+	padding: 8px 12px;
     overflow-x: scroll;
 
     > code {
@@ -200,8 +193,8 @@ pre {
 
     > svg {
         display: inline-block;
-        width: 1em;
-        height: 1em;
+        width: 16px;
+        height: 16px;
         vertical-align: middle;
 
         path {
