@@ -3,7 +3,11 @@
 ---
 @charset "utf-8";
 
-
+* {
+  -webkit-box-sizing: border-box; /* Safari 3.0 - 5.0, Chrome 1 - 9, Android 2.1 - 3.x */
+  -moz-box-sizing: border-box;    /* Firefox 1 - 28 */
+  box-sizing: border-box;         /* Safari 5.1+, Chrome 10+, Firefox 29+, Opera 7+, IE 8+, Android 4.0+, iOS any */
+}
 
 
 
@@ -32,28 +36,7 @@ $content-width: 80%;
 $on-palm: 480px;
 $on-laptop: 768px;
 $on-desktop: 1248px;	
-$pad: 10px;
-/* Grid for portfolio landing page	*/
-
-[class='col-portfolio'] {
-	float: left;
-	width: 45%;
-  padding-right: $pad;
-  .grid &:last-of-type {
-  	padding-right: $pad;
-  }
-  }
-
-/* /1* Opt-in outside padding *1/ */
-/* .grid-pad { */
-/*   padding: $pad 0 $pad $pad; */
-/*   [class*='col-']:last-of-type { */
-/*     padding-right: $pad; */
-/*   } */
-/* } */
-
-
-  
+$pad: 20px;
 
 // @include media-query($on-palm) {
 //     .wrapper {
@@ -80,7 +63,27 @@ $pad: 10px;
 			}
 }
 
+/* Grid for portfolio landing page	*/
 
+
+@include media-query-min($on-laptop) {
+[class='col-portfolio'] {
+	float: left;
+	width: 50%;
+	padding-right: $pad;
+	.grid &:last-of-type {
+	padding-right: $pad;
+  }
+  }
+
+/* Opt-in outside padding */
+.grid-pad {
+		padding: $pad 0 $pad $pad;
+		[class*='col-']:last-of-type {
+		padding-right: $pad;
+  }
+}
+}
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
