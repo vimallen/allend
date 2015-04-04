@@ -6,12 +6,10 @@ permalink: /portfolio/
 ---
 
 {% for job in site.data.jobs %}
-<header>
 <h3>{{job.name}}</h3>
-</header>
+<a href="#" class="what"><img src="{{job.image}}"></a>
 <p>Client: {{job.client}}</p>
 <p>Description: {{job.description}}</p>
-<figure><a href=""><img src="{{job.image}}"></a></figure>
 <p><a href="#">Read more &#8230;</a></p>
 {% endfor %}
 
