@@ -32,8 +32,28 @@ $content-width: 80%;
 $on-palm: 480px;
 $on-laptop: 768px;
 $on-desktop: 1248px;	
+$pad: 10px;
+/* Grid for portfolio landing page	*/
+
+[class='col-portfolio'] {
+	float: left;
+	width: 45%;
+  padding-right: $pad;
+  .grid &:last-of-type {
+  	padding-right: $pad;
+  }
+  }
+
+/* /1* Opt-in outside padding *1/ */
+/* .grid-pad { */
+/*   padding: $pad 0 $pad $pad; */
+/*   [class*='col-']:last-of-type { */
+/*     padding-right: $pad; */
+/*   } */
+/* } */
 
 
+  
 
 // @include media-query($on-palm) {
 //     .wrapper {
