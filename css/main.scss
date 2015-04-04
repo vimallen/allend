@@ -45,7 +45,7 @@ $on-desktop: 1248px;
         @content;
     }
 }
-// Attempt at min-width mq
+// min-width mq
 @mixin media-query-min($device) {
 	@media screen and (min-width: $device) {
 		@content;
