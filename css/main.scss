@@ -38,9 +38,18 @@ $on-laptop: 768px;
 $on-desktop: 1248px;	
 $pad: 30px;
 
+/* Palette
+#050D40
+#EBEBDB
+#C01304
+#742B00
+#A0C004
+
+*/
+
 .page-content	{
 				margin-top: 30px;/* Somehow getting more padding at desktop */
-			}
+}
 
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
@@ -73,7 +82,21 @@ $pad: 30px;
 	.grid &:last-of-type {
 	padding-right: $pad;
   }
-  }
+}
+
+/* Modules */
+
+.module-portfolio	{
+					margin-bottom: 40px;
+				}
+.module-portfolio p:last-child	{
+								margin-top: 20px;
+}
+
+				
+			
+
+
 
 /* Opt-in outside padding */
 .grid-pad {
