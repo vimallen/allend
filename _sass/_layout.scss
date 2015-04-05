@@ -243,9 +243,18 @@
         font-size: 20px;
 		text-transform: uppercase;
 		border-bottom: 6px solid darken($background-color, 20%);
-
+		
         @include media-query($on-laptop) {
             font-size: 18px;
         }
     }
 }
+
+.module-portfolio h4:before {
+					content: "✎ ";
+					color: $brand-color;
+}
+
+/* .module-portfolio { */
+/* 					margin-bottom: 40px; */
+/* } */
