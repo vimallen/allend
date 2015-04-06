@@ -2,6 +2,7 @@
     description: "56-page brochure"
     client:	"Andy Thornton Ltd"
     image: "../images/thumb-portfolio-UrbanVintage-2014.jpg"
+    link: "/urban-vintage-2014/"
 -   name: "Samuel Tweed"
     description: "Website"
     client: "Samuel Tweed Fabrics"

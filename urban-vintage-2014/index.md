@@ -2,6 +2,8 @@
 title: Urban Vintage 2014
 author: davea
 layout: page
+exclude_from_nav: true
+permalink: /urban-vintage-2014/
 ---
 Packed full of chairs, stools, tables, decorative lighting and retail display solutions, the 52-page brochure is a must-have for all bar, pub and restaurant operators, designers and those in the business of creating shop interiors and retail display.
 

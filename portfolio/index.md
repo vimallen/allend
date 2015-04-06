@@ -9,10 +9,10 @@ permalink: /portfolio/
 <div class="col-portfolio">
 	<div class="module-portfolio">
 <h4>{{job.name}}</h4>
-<a href="#" class="what"><img src="{{job.image}}"></a>
+<a href="{{job.link}}" class="what"><img src="{{job.image}}"></a>
 <p>Client: {{job.client}}</p>
 <p>Description: {{job.description}}</p>
-<p><a href="#">Read more &#8230;</a></p>
+<p><a href="{{job.link}}">Read more &#8230;</a></p>
 </div>
 </div>
 
