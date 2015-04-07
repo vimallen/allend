@@ -7,6 +7,7 @@
     description: "Website"
     client: "Samuel Tweed Fabrics"
     image: "../images/thumb-portfolio-stweed.jpg"
+    link: "http://samueltweed.com/"
 -   name: "Heritage Cast Iron"
     description: "Brochures"
     client: "Hall and Pickles"

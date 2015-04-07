@@ -11,9 +11,16 @@ Packed full of chairs, stools, tables, decorative lighting and retail display so
 <figure>
 <img src="../images/AndyThornton-UrbanVintage-02-03.jpg" alt="AndyThornton-UrbanVintage-02-03" />
 </figure>
-<img src="http://www.daveallengraphics.com/wp-content/uploads/2014/09/AndyThornton-UrbanVintage-16-17.jpg" alt="AndyThornton-UrbanVintage-16-17" class="alignnone size-full wp-image-983" />
-<img src="http://www.daveallengraphics.com/wp-content/uploads/2014/09/AndyThornton-UrbanVintage-22-23.jpg" alt="AndyThornton-UrbanVintage-22-23" class="alignnone size-full wp-image-986" />
-<img src="http://www.daveallengraphics.com/wp-content/uploads/2014/09/AndyThornton-UrbanVintage-30-31.jpg" alt="AndyThornton-UrbanVintage-30-31" class="alignnone size-full wp-image-988" />
-<img src="http://www.daveallengraphics.com/wp-content/uploads/2014/09/AndyThornton-UrbanVintage-36-37.jpg"
-alt="AndyThornton-UrbanVintage-36-37" class="alignnone size-full wp-image-990" />i
-<img src="http://www.daveallengraphics.com/wp-content/uploads/2014/09/AndyThornton-UrbanVintage-44-45.jpg" alt="AndyThornton-UrbanVintage-44-45" class="alignnone size-full wp-image-993" />
+<figure><img src="../images/AndyThornton-UrbanVintage-16-17.jpg" alt="AndyThornton-UrbanVintage-16-17" class="alignnone size-full wp-image-983" /></figure>
+<figure>
+<img src="../images/AndyThornton-UrbanVintage-22-23.jpg" alt="AndyThornton-UrbanVintage-22-23" class="alignnone size-full wp-image-986" />
+</figure>
+<figure>
+<img src="../images/AndyThornton-UrbanVintage-30-31.jpg" alt="AndyThornton-UrbanVintage-30-31" class="alignnone size-full wp-image-988" />
+</figure>
+<figure>
+<img src="../images/AndyThornton-UrbanVintage-36-37.jpg" alt="AndyThornton-UrbanVintage-36-37" class="alignnone size-full wp-image-990" />
+</figure>
+<figure>
+<img src="../images/AndyThornton-UrbanVintage-44-45.jpg" alt="AndyThornton-UrbanVintage-44-45" class="alignnone size-full wp-image-993" />
+</figure>

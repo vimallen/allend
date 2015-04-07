@@ -21,16 +21,16 @@
     line-height: 36px;
     margin-bottom: 0;
     float: left;
-	color: $background-color;	
+	color: $brand-color-light;	
 
     &,
     &:visited {
-		color: $background-color;
+		color: $brand-color-light;
     }
 
 	&,
 	&:hover {
-		color: darken($background-color, 20%);
+		color: $hover-color;
 	}
 }
 
@@ -255,6 +255,3 @@
 					color: $brand-color;
 }
 
-/* .module-portfolio { */
-/* 					margin-bottom: 40px; */
-/* } */

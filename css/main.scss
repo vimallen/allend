@@ -21,7 +21,8 @@ $spacing-unit: 30px;
 
 $text-color: #444444; 			
 $background-color: #E8E8DF;
-$brand-color: #050D40;	
+$brand-color: #222844;	
+$brand-color-light: #CECE5F;
 $link-color: lighten($brand-color, 12%);  
 $hover-color: #C01304;
 
@@ -45,10 +46,16 @@ $pad: 30px;
 #742B00
 #A0C004
 #CECE5F
+#222844
 */
 .module-portfolio	{
 					margin-bottom: 24px;
 				}
+.module-portfolio p	{
+					margin-bottom: $spacing-unit / 6; /* counters that set in base.scss */					
+}
+				
+
 .page-content	{
 				margin-top: 30px;/* Somehow getting more padding at desktop */
 }
@@ -94,10 +101,6 @@ $pad: 30px;
 .module-portfolio p:last-child	{
 								margin-top: 20px;
 }
-
-				
-			
-
 
 
 /* Opt-in outside padding */
