@@ -21,7 +21,6 @@ body {
 }
 
 
-
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -33,7 +32,6 @@ ul, ol, dl, figure,
 }
 
 
-
 /**
  * Images
  */
@@ -43,14 +41,13 @@ img {
 }
 
 
-
 /**
  * Figures
  */
   img {
     display: block;
 	margin-bottom: $spacing-unit / 2;
-	border: 3px solid darken($background-color, 15%);
+	border: 6px solid mintcream;
 }
 
 figcaption {
@@ -83,7 +80,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
 /**
  * Links
  */
@@ -97,6 +93,10 @@ a {
 
     &:hover {
 		color: $hover-color;
+        text-decoration: underline;
+    }
+	&:focus {
+		color: $focus-color;
         text-decoration: underline;
     }
 }

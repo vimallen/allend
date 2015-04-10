@@ -16,18 +16,18 @@ $base-font-family: Verdana,Geneva,sans-serif;
 $base-font-size: 16px;
 $small-font-size: $base-font-size * 0.875;
 $base-line-height: 1.5;
-
 $spacing-unit: 30px;
 
-$text-color: #444444; 			
-$background-color: #E8E8DF;
-$brand-color: #222844;	
-$brand-color-light: #CECE5F;
-$link-color: lighten($brand-color, 12%);  
-$hover-color: #C01304;
+$text-color: black; 			
+$background-color: ivory;
+$brand-color: darkslategray;	
+$brand-color-light: slategray;
+$link-color: teal;  
+$hover-color: darkorange;
+$accent-color: firebrick;
+$focus-color: steelblue;
 
-
-$grey-color: #828282;
+$grey-color: grey;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark: darken($grey-color, 25%);
 
@@ -39,15 +39,8 @@ $on-laptop: 768px;
 $on-desktop: 1248px;	
 $pad: 30px;
 
-/* Palette
-#050D40
-#E8E8DF
-#C01304
-#742B00
-#A0C004
-#CECE5F
-#222844
-*/
+
+
 .module-portfolio	{
 					margin-bottom: 24px;
 				}
