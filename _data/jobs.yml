@@ -12,6 +12,7 @@
     description: "Brochures"
     client: "Hall and Pickles"
     image: "../images/thumb-hci-logo.jpg"
+    link: "/heritage-cast-iron/"
 -   name: "Worldwide Fit-Out"
     description: "Brochures"
     client: "Andy Thornton Ltd"
