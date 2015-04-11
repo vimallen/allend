@@ -222,7 +222,7 @@
 	font-size: 30px;
     letter-spacing: -1px;
     line-height: 1;
-	color: lighten($brand-color, 9);
+	color: $accent-color;
 
     @include media-query($on-laptop) {
         font-size: 24px;
@@ -262,6 +262,6 @@
 
 .module-portfolio h4:before {
 					content: "✎ ";
-					color: firebrick;
+					color: $brand-color;
 }
 
