@@ -47,7 +47,7 @@ img {
   img {
     display: block;
 	margin-bottom: $spacing-unit / 2;
-	border: 6px solid mintcream;
+	border: 3px solid lighten($grey-color, 25%);
 }
 
 figcaption {

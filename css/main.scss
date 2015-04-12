@@ -23,9 +23,9 @@ $background-color: white;
 $brand-color: black;	
 $brand-color-light: slategray;
 $link-color: steelblue;  
-$hover-color: orangered;
+$hover-color: olivedrab;
 $accent-color: darkslategray;
-$focus-color: olivedrab;
+$focus-color: orangered;
 
 $grey-color: grey;
 $grey-color-light: lighten($grey-color, 40%);
@@ -73,6 +73,12 @@ $pad: 30px;
 			}
 }
 
+
+
+
+
+
+
 /* Grid for portfolio landing page	*/
 
 
@@ -89,7 +95,7 @@ $pad: 30px;
 /* Modules */
 
 .module-portfolio	{
-					margin-bottom: 40px;
+					margin-bottom: 66px;
 				}
 .module-portfolio p:last-child	{
 								margin-top: 20px;

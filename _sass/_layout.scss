@@ -2,21 +2,18 @@
  * Site header
  */
 .site-header {
-//	border-top: 18px solid $brand-color;
 	border-bottom: 3px solid ;
-//	box-shadow: inset 0 -1px 0 0 #FFF, inset 0 1px 0 0 #FFF, 0 1px 0 0 #FFF, 0 -1px 0 0 #fff;
 	margin-bottom: 1px;
 	margin-bottom: 1px;
     min-height: 56px;
 	padding: 16px 0 16px 0;
-//	background-color: $brand-color;
 
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
 .site-title {
-    font-size: 38px;
+    font-size: 32px;
 	font-weight: 700;
     line-height: 36px;
     margin-bottom: 0;
@@ -188,6 +185,7 @@
 
 .page-heading {
 	font-size: 20px;
+	color: $hover-color;
 }
 
 .post-list {
@@ -222,6 +220,7 @@
 	font-size: 30px;
     letter-spacing: -1px;
     line-height: 1;
+	color: $hover-color;
 	
 
     @include media-query($on-laptop) {
