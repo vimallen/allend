@@ -17,6 +17,7 @@
     description: "Brochures"
     client: "Andy Thornton Ltd"
     image: "../images/thumb-worldwide.jpg"
+    link: "/worldwide-interior-fit-out/"
 -   name: "PRO-MOTION3D"
     description: "website"
     client: "PRO-MOTION3D"
