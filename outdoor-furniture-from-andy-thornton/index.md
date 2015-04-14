@@ -12,4 +12,4 @@ A 32-page brochure featuring the company&#8217;s latest ranges of contract quali
 <figure><img src="../images/outdoor-spread-02.jpg" alt="outdoor-spread-02" /></figure>
 <figure><img src="../images/outdoor-spread-03.jpg" alt="outdoor-spread-03" /></figure>
 
- [1]: http://www.daveallengraphics.com/outdoor-furniture-covers/ "Outdoor furniture covers"
+ [1]: /outdoor-furniture-covers/ 
