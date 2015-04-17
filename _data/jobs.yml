@@ -32,8 +32,10 @@
     description: "Brochure"
     client: "Andy Thornton Ltd"
     image: "../images/thumb-lighting.jpg"
+    link: "/lighting-from-andy-thornton/"
 -   name: "RFLC Applied"
     description: "Literature"
     client: "RFLC Applied"
     image: "../images/thumb-rflc.jpg"
+    link: "/rflc-applied/"
 
