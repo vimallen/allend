@@ -7,7 +7,7 @@ categories: design
 ---
 <p>Exporting PDFs from InDesign is simple enough. Cmd + E / Ctrl + E. And it is a speedy enough process for documents with relatively few pages. But it is common practice for large-extent documents for the artwork to be packaged into a folder for each spread. I am currently working on a 488 page catalogue. My directory structure looks like this:
 </p>
-<figure><img src="../images/Folders.png" alt="Small hill in Scotland"></figure>
+<figure><img src="../images/Folders.png" alt="directory structure"></figure>
 
 <p>Manually exporting to PDF in this situation can be surprisingly time-consuming.</p>
 
@@ -37,7 +37,7 @@ From the InDesign scripts panel, run batch_convert.jsbin, choosing the relevant 
 In the preferences of Acrobat Pro (my version is 10.1.2) uncheck ‘Save As optimises for Fast Web View’.
 
 Then in Acrobat go to > File > Create > ‘Combine files into Single PDF’
-<img class="alignnone size-full wp-image-746" src="http://www.daveallengraphics.com/wp-content/uploads/2014/04/CombineFiles.png" alt="Acrobat Combine files dialogue" /> 
+<img src="../images/CombineFiles.png" alt="Acrobat Combine files dialogue" /> 
 
 At this point care needs to be taken to select the correct file size in this dialogue box. Select Larger File Size. I believe that no compression is applied to images with this setting.
 
@@ -53,7 +53,7 @@ Open Binder [No.].pdf in Acrobat and use Tools > Extract (or select all the page
 
 You should now have all your artwork as single pages. Unfortunately with file names that don’t match the folio/page number. The good news is that Acrobat has respected the left page/right page relationship throughout the process so that it is a simple process to rename the files using Automator (if using a Mac), Adobe Bridge or any other utility.
 
-<img class="alignnone size-full wp-image-745" src="http://www.daveallengraphics.com/wp-content/uploads/2014/04/Automator.jpg" alt="Automator" /> 
+<img src="../images/Automator.jpg" alt="Automator" /> 
 
 #### Conclusion
 
