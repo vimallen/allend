@@ -2,12 +2,12 @@
  * Site header
  */
 .site-header {
-	border-bottom: 2px solid $accent-color;
+	border-bottom: 2px solid darken($brand-color, 10%);
 	margin-bottom: 1px;
 	margin-bottom: 1px;
     min-height: 56px;
 	padding: 16px 0 16px 0;
-	/* background-color: saturate($background-color, 70%); */
+	background-color: $brand-color;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -20,11 +20,11 @@
     line-height: 36px;
     margin-bottom: 0;
     float: left;
-	color: $brand-color;	
+	color: $background-color;	
 
     &,
     &:visited {
-		color: $brand-color;
+		color: $background-color;
     }
 
 	&,
@@ -51,7 +51,7 @@
     }
 
     .page-link {
-        color: $brand-color;
+        color: $background-color;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
@@ -187,7 +187,7 @@
 
 .page-heading {
 	font-size: 20px;
-	color: $grey-color-dark;
+	color: darken($brand-color, 10%);
 }
 
 .post-list {
@@ -222,7 +222,7 @@
 	font-size: 30px;
     /* letter-spacing: -1px; */
     line-height: 1;
-	color: $accent-color;
+	color: darken($brand-color, 10%);
 	
 
     @include media-query($on-laptop) {

@@ -1,5 +1,5 @@
 ---
-title: Supplement cover final selection
+title: "Andy Thornton Ltd: cover for the furniture and lighting supplement"
 author: davea
 layout: post
 meta: cover for Andy Thornton furniture and lighting supplement
