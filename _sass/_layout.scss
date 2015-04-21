@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-	border-bottom: 2px solid lighten($brand-color, 10%);
+	border-bottom: 3px solid $hover-color;
 	margin-bottom: 1px;
 	margin-bottom: 1px;
     min-height: 56px;
@@ -187,7 +187,7 @@
 
 .page-heading {
 	font-size: 20px;
-	color: darken($brand-color, 10%);
+	color: darken($hover-color, 7%);
 }
 
 .post-list {
@@ -207,6 +207,7 @@
 .post-link {
     display: block;
     font-size: 20px;
+	text-decoration: underline;
 }
 
 
@@ -222,7 +223,7 @@
 	font-size: 30px;
     /* letter-spacing: -1px; */
     line-height: 1;
-	color: darken($brand-color, 10%);
+	color: darken($hover-color, 7%);
 	
 
     @include media-query($on-laptop) {

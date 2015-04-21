@@ -22,7 +22,7 @@ $text-color: #444444;
 $background-color: ivory;
 $brand-color: #32527c;	
 $brand-color-light: slategray;
-$link-color: steelblue;  
+$link-color: lighten(desaturate($brand-color, 1), 12);  
 $hover-color: darkgoldenrod;
 $accent-color: midnightblue;
 $focus-color: rebeccapurple;
