@@ -6,8 +6,8 @@
 	margin-bottom: 1px;
 	margin-bottom: 1px;
     min-height: 56px;
-	padding: 16px 0 16px 0;
-	background-color: darken($brand-color, 7%);
+	padding: 30px 0 16px 0;
+	/* background-color: darken($brand-color, 7%); */
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -20,11 +20,11 @@
     line-height: 36px;
     margin-bottom: 0;
     float: left;
-	color: $background-color;	
+	color: darken($brand-color, 7%);
 
     &,
     &:visited {
-		color: $background-color;
+		color: darken($brand-color, 7%);
     }
 
 	&,
@@ -51,7 +51,7 @@
     }
 
     .page-link {
-        color: $background-color;
+        color: darken($brand-color, 7%);
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one

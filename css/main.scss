@@ -19,7 +19,7 @@ $base-line-height: 1.5;
 $spacing-unit: 30px;
 
 $text-color: #444444; 			
-$background-color: mintcream;
+$background-color: ivory;
 $brand-color: darkgoldenrod;	
 $brand-color-light: slategray;
 $link-color: steelblue;  
@@ -110,6 +110,11 @@ $pad: 30px;
   }
 }
 }
+
+
+
+
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
