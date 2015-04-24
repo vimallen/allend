@@ -9,8 +9,6 @@
   box-sizing: border-box;         /* Safari 5.1+, Chrome 10+, Firefox 29+, Opera 7+, IE 8+, Android 4.0+, iOS any */
 }
 
-
-
 // Our variables
 $base-font-family: Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
 $base-font-size: 18px;
@@ -19,8 +17,8 @@ $base-line-height: 1.5;
 $spacing-unit: 30px;
 
 $text-color: #444444; 			
-$background-color: ivory;
-$brand-color: darkgoldenrod;	
+$background-color: white;
+$brand-color: #966d09;	
 $brand-color-light: slategray;
 $link-color: steelblue;  
 $hover-color: darkorange;
@@ -39,8 +37,6 @@ $on-laptop: 768px;
 $on-desktop: 1248px;	
 $pad: 30px;
 
-
-
 .module-portfolio	{
 					margin-bottom: 24px;
 				}
@@ -48,7 +44,6 @@ $pad: 30px;
 					margin-bottom: $spacing-unit / 6; /* counters that set in base.scss */					
 }
 				
-
 .page-content	{
 				margin-top: 30px;/* Somehow getting more padding at desktop */
 }
@@ -65,19 +60,11 @@ $pad: 30px;
 	}
 }
 
-
-
 @include media-query-min($on-laptop) {
 			p {
 				max-width: 608px;
 			}
 }
-
-
-
-
-
-
 
 /* Grid for portfolio landing page	*/
 
@@ -101,7 +88,6 @@ $pad: 30px;
 								margin-top: 20px;
 }
 
-
 /* Opt-in outside padding */
 .grid-pad {
 		padding: $pad 0 $pad $pad;
@@ -110,10 +96,6 @@ $pad: 30px;
   }
 }
 }
-
-
-
-
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import

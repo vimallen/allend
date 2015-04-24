@@ -20,11 +20,11 @@
     line-height: 36px;
     margin-bottom: 0;
     float: left;
-	color: darken($brand-color, 7%);
+	color: $brand-color;
 
     &,
     &:visited {
-		color: darken($brand-color, 7%);
+		color: $brand-color;
     }
 
 	&,
@@ -51,7 +51,7 @@
     }
 
     .page-link {
-        color: darken($brand-color, 7%);
+        color: $brand-color;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
@@ -187,7 +187,7 @@
 
 .page-heading {
 	font-size: 20px;
-	color: darken($brand-color, 7%);
+	color: $brand-color;
 }
 
 .post-list {
@@ -223,7 +223,7 @@
 	font-size: 30px;
     /* letter-spacing: -1px; */
     line-height: 1;
-	color: darken($brand-color, 7%);
+	color: $brand-color;
 	
 
     @include media-query($on-laptop) {
