@@ -6,7 +6,7 @@
 	margin-bottom: 1px;
 	margin-bottom: 1px;
     min-height: 56px;
-	padding: 48px 0 24px 0;
+	padding: 48px 0 36px 0;
 	/* background-color: darken($brand-color, 7%); */
 
     // Positioning context for the mobile navigation icon
@@ -112,7 +112,7 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $accent-color;
+    border-top: 1px solid $brand-color;
     padding: $spacing-unit 0;
 }
 
