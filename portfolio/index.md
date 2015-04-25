@@ -8,7 +8,7 @@ permalink: /portfolio/
 {% for job in site.data.jobs %}
 <div class="col-portfolio">
 	<div class="module-portfolio">
-<h4>{{job.name}}</h4>
+<h3>{{job.name}}</h3>
 <a href="{{job.link}}" class="what"><img src="{{job.image}}"></a>
 <p>Client: {{job.client}}</p>
 <p>Description: {{job.description}}</p>

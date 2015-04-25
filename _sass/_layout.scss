@@ -252,18 +252,20 @@
 
     h4 {
         font-size: 24px;
-		text-transform: uppercase;
-		border-bottom: 2px dotted ;
-		letter-spacing: 0.12em;
-		
-//        @include media-query($on-laptop) {
-//            font-size: 36px;
-//        }
+        @include media-query($on-laptop) {
+            font-size: 28px;
+        }
     }
 }
 
-.module-portfolio h4:before {
-					content: "✎ ";
-					
+.module-portfolio h3{
+					text-transform: uppercase;
+					border-bottom: 2px dotted ;
+					letter-spacing: 0.12em;
 }
+
+
+.module-portfolio h3:before {
+					content: "✎ ";
+					}
 
