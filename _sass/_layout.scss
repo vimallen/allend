@@ -260,12 +260,12 @@
 
 .module-portfolio h3{
 					text-transform: uppercase;
-					border-bottom: 2px dotted ;
-					letter-spacing: 0.12em;
+					border-bottom: 2px dotted $brand-color;
+					letter-spacing: 0.012em;
 }
 
 
-.module-portfolio h3:before {
-					content: "✎ ";
-					}
+//.module-portfolio h3:before {
+//					content: "✎ ";
+//					}
 
