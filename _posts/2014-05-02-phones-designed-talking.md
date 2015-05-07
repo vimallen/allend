@@ -3,8 +3,7 @@ title: All our phones are designed for talking
 author: davea
 layout: post
 permalink: /phones-designed-talking/
-categories:
-  - Photographs
+category: photographs
 ---
 No kidding BT.
 

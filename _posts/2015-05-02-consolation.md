@@ -4,7 +4,7 @@ author: davea
 layout: post
 meta: some thoughts on loss and gratitude
 permalink: /consolation/
-categories: writing
+category: writing
 ---
 
 Several times in the past few months I have found the need for words of consolation, both for myself and for others. I'm not sure how I came across this but the following is taken from _Broken Vessels_, an essay by Andre Dubus.
