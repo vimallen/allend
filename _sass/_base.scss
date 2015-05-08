@@ -194,6 +194,11 @@ pre {
 	float: left;
 	padding-right: 20px;
 	margin-top: -8px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 
     > svg {
         display: inline;
@@ -202,3 +207,15 @@ pre {
         vertical-align: middle;
     }
 }
+@include media-query-min($on-laptop) {
+		.icon-logo:hover {
+		-webkit-transform: rotate(-10deg);
+		-moz-transform: rotate(-10deg);
+		-o-transform: rotate(-10deg);
+		-ms-transform: rotate(-10deg);
+		transform: rotate(-10deg);
+	}
+}
+
+
+
