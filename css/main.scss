@@ -66,6 +66,18 @@ $pad: 30px;
 			}
 }
 
+// Widescreen
+
+.post-list > li {
+				transition: all 0.5s ease;
+}
+
+@include media-query-min($on-laptop) {
+			.post-list > li:hover {
+			padding-left: 30px;
+		}
+}
+
 /* Grid for portfolio landing page	*/
 
 
