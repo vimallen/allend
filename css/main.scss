@@ -37,6 +37,7 @@ $on-laptop: 768px;
 $on-desktop: 1248px;	
 $pad: 30px;
 
+
 .module-portfolio	{
 					margin-bottom: 24px;
 				}
@@ -45,7 +46,7 @@ $pad: 30px;
 }
 				
 .page-content	{
-				margin-top: 30px;/* Somehow getting more padding at desktop */
+				margin-top: 30px;
 }
 
 @mixin media-query($device) {
@@ -66,7 +67,7 @@ $pad: 30px;
 			}
 }
 
-// Widescreen
+// Hover for post-list
 
 .post-list > li {
 				transition: all 0.5s ease;
