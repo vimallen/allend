@@ -63,8 +63,17 @@ $pad: 30px;
 
 @include media-query-min($on-laptop) {
 			p {
-				max-width: 680px;
+				max-width: 650px;
 			}
+}
+
+// widescreen
+@include media-query-min($on-desktop) {
+				.wrapper, a.post-link  {
+				font-size: 20px;
+//				color: red;
+			}
+	
 }
 
 // Hover for post-list
