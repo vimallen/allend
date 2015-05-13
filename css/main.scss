@@ -67,6 +67,15 @@ $pad: 30px;
 			}
 }
 
+// widescreen
+@include media-query-min($on-desktop) {
+				.wrapper, a.post-link  {
+				font-size: 20px;
+//				color: red;
+			}
+	
+}
+
 // Hover for post-list
 
 .post-list > li {
