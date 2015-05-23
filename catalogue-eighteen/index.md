@@ -14,7 +14,11 @@ I spent the first week in the in-house photography studio, wearing a paper prote
 
 But back to design matters.
 
-Over the next few editions there were very few major changes made to the structure of the document. More content tended to be simply shoehorned into pages. As so often happens, the personality of the catalogue was lost.
+Over the next few editions there were very few major changes made to the structure of the document. More content tended to be simply shoehorned into pages. As so often happens, the personality of the catalogue was lost. In fact things got a bit grey.
+
+
+
+<figure><img src="../images/cover-cat17.png" alt="catalogue 17 cover"><figcaption>Catalogue 17: A bit grey</figcaption></figure>
 
 <figure><img src="../images/ATCAT17-344-345.jpg" alt="catalogue 17 spread carvings"><figcaption>Catalogue 17: Carvings</figcaption></figure>
 
