@@ -10,6 +10,12 @@ Within the hospitality industry, Andy Thornton was the first company to offer su
 <figure><img src="../images/cover-CAT12-2ndEd.jpg" alt="catalogue 12 cover"><figcaption>1997 Catalogue 12</figcaption></figure>
 The first Andy Thornton book I worked on was Catalogue 12, which took two years to produce and was published in 1997. I sometimes find it hard to believe that there was a time when the only way to create images was on film. There were twice-daily deliveries and collections by the processing lab and whole days would be lost if the test shots were not approved.
 
+I spent the first week in the in-house photography studio, wearing a paper protective suit, polishing brass fittings. Happy days.
+
+But back to design matters.
+
+Over the next few editions there were very few major changes made to the structure of the document. More content tended to be simply shoehorned into pages. As so often happens, the personality of the catalogue was lost.
+
 <figure><img src="../images/ATCAT17-344-345.jpg" alt="catalogue 17 spread carvings"><figcaption>Catalogue 17: Carvings</figcaption></figure>
 
 <figure><img src="../images/CAT18-408-409.jpg" alt="catalogue 18 spread carvings"><figcaption>Catalogue 18: Carvings</figcaption></figure>
