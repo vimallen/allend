@@ -14,9 +14,11 @@ I spent the first week in the in-house photography studio, wearing a paper prote
 
 But back to design matters.
 
-Over the next few editions there were very few major changes made to the structure of the document. More content tended to be simply shoehorned into pages. As so often happens, the personality of the catalogue was lost. In fact things got a bit grey.
+Over the next few editions there were very few major changes made to the structure of the document. More content tended to be simply shoehorned into pages. As so often happens, the personality of the catalogue was lost. In fact things got a bit grey. So for Catalogue 18, things had to change, and what had to change most was the **content**. In practice this meant:
 
-
+-	Fewer products per page
+-	Production and reshooting of products to ensure consistency of appearance
+-	A review of product copy and information
 
 <figure><img src="../images/cover-cat17.png" alt="catalogue 17 cover"><figcaption>Catalogue 17: A bit grey</figcaption></figure>
 
