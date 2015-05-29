@@ -23,9 +23,10 @@ Nobody left to refresh them.
 
 Then, round the corner, an area where the floral tributes still had colour. It was at
 the sight of an imitation bird, tenderly placed next to a pale blue oval flowerpot,
-that the urge to cry suddenly rose up.
+that the urge to cry suddenly rose up. I suppressed it.
 
-<figure><img src="../images/st-stephens-wren.jpg"></figure>
+<figure><img src="../images/st-stephens-wren.jpg" alt="flowers, bird and gravestone"></figure>
 
-I didn't weep, but when I walked back onto the street I was changed. Something else
-will change me tomorrow. What will change you?
+When I walked back onto the street I was changed. Something else will change me again tomorrow. 
+
+What will change you?
