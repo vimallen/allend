@@ -37,6 +37,7 @@ $content-width: 960px;
 $on-palm: 480px;
 $on-laptop: 768px;
 $on-desktop: 1600px;	
+$on-widescreen: 1900px;
 $pad: 30px;
 
 
@@ -69,14 +70,23 @@ $pad: 30px;
 			}
 }
 
-// widescreen
 @include media-query-min($on-desktop) {
 				.wrapper, a.post-link  {
 				font-size: 20px;
-//				color: red;
 			}
 	
 }
+
+
+// widescreen
+
+@include media-query-min($on-widescreen) {
+				.wrapper, a.post-link  {
+				font-size: 30px;
+			}
+
+}
+
 
 // Hover for post-list
 
