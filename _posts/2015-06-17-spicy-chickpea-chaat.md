@@ -11,7 +11,7 @@ This one is ideally best served on a sunny evening in Eskdale, after having spen
 * 1 Tin of chickpeas (450g)
 * 2 Tablespoons of plain yogurt 
 * 1/2 onion, finely chopped 
-* 1 Teaspoon of black pepper 
+* Plenty of black pepper 
 * 1 Teaspoon of tandoori powder 
 * 1/2 Teaspoon of chilli powder 
 * 1/2 Teaspoon of chilli flakes 
@@ -20,3 +20,6 @@ This one is ideally best served on a sunny evening in Eskdale, after having spen
 * Salt to season 
 
 Mix all the above ingredients in a bowl.
+
+I found the above quantities enough for 3 people as a starter. I can imagine making a large bowlful for diners to help
+themselves to before the main courses arrive.
