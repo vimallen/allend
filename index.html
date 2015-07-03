@@ -13,6 +13,7 @@ layout: default
 
   <ul class="post-list">
     {% for post in site.posts %}
+	  {% unless post.draft %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
@@ -21,6 +22,7 @@ layout: default
         </h2>
 		   {{ post.excerpt | truncatewords:20 }} 
       </li>
+	  {% endunless %}
     {% endfor %}
   </ul>
 
