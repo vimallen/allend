@@ -14,7 +14,7 @@ I spent the first week in the in-house photography studio, wearing a paper prote
 
 But back to design matters.
 
-Over the next few editions there were very few major changes made to the structure of the document. More content tended to be simply shoehorned into pages. As so often happens, the personality of the catalogue was lost. In fact things got a bit grey. 
+Over the next few editions there were very few major changes made to the structure of the document. More content tended to be simply shoehorned into pages. As so often happens, the personality of the catalogue was lost. In fact things got a bit grey.
 
 <figure><img src="../images/cover-cat17.png" alt="catalogue 17 cover"><figcaption>Catalogue 17: A bit grey</figcaption></figure>
 So for Catalogue 18, things had to change, and what had to change most was the **content**. In practice this meant:
@@ -26,17 +26,17 @@ So for Catalogue 18, things had to change, and what had to change most was the *
 Below are some 'before and after' spreads.
 
 
-<figure><img src="../images/ATCAT17-344-345.jpg" alt="catalogue 17 spread carvings"><figcaption>Catalogue 17: Carvings</figcaption></figure>
+<figure><img src="../images/ATCAT17-344-345.jpg" alt="catalogue 17 spread carvings"><figcaption>Before: Catalogue 17, Carvings</figcaption></figure>
 
-<figure><img src="../images/CAT18-408-409.jpg" alt="catalogue 18 spread carvings"><figcaption>Catalogue 18: Carvings</figcaption></figure>
+<figure><img src="../images/CAT18-408-409.jpg" alt="catalogue 18 spread carvings"><figcaption>After: Catalogue 18, Carvings</figcaption></figure>
 
-<figure><img src="../images/ATCAT17-010-011.jpg" alt="catalogue 17 spread furniture"><figcaption>Catalogue 17: Furniture</figcaption></figure>
+<figure><img src="../images/ATCAT17-010-011.jpg" alt="catalogue 17 spread furniture"><figcaption>Before: Catalogue 17, Furniture</figcaption></figure>
 
-<figure><img src="../images/CAT18-034-035.jpg" alt="catalogue 18 spread furniture"><figcaption>Catalogue 18: Furniture</figcaption></figure>
+<figure><img src="../images/CAT18-034-035.jpg" alt="catalogue 18 spread furniture"><figcaption>After: Catalogue 18, Furniture</figcaption></figure>
 
-<figure><img src="../images/ATCAT17-332-333.jpg" alt="catalogue 17 spread metal castings"><figcaption>Catalogue 17: Metal castings</figcaption></figure>
+<figure><img src="../images/ATCAT17-332-333.jpg" alt="catalogue 17 spread metal castings"><figcaption>Before: Catalogue 17, Metal castings</figcaption></figure>
 
-<figure><img src="../images/CAT18-390-391.jpg" alt="catalogue 18 spread metal castings"><figcaption>Catalogue 18: Metal castings</figcaption></figure>
+<figure><img src="../images/CAT18-390-391.jpg" alt="catalogue 18 spread metal castings"><figcaption>After: Catalogue 18, Metal castings</figcaption></figure>
 
 
 Pressure of time meant that internal pages had to remain fairly sparse in terms of decorative and branding elements. It was possible though to give the cover a richer feel, taking the lead from the website design. This is a trend I would like to continue for Catalogue 19, whenever that arrives.
