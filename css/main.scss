@@ -18,11 +18,11 @@ $small-font-size: $base-font-size * 0.875;
 $base-line-height: 1.5;
 $spacing-unit: 30px;
 
-$text-color: #444444; 			
+$text-color: #444444;
 $background-color: white;
-$brand-color: #966d09;	
+$brand-color: #966d09;
 $brand-color-light: slategray;
-$link-color: steelblue;  
+$link-color: steelblue;
 $hover-color: darkorange;
 $accent-color: midnightblue;
 $focus-color: rebeccapurple;
@@ -36,7 +36,7 @@ $content-width: 960px;
 
 $on-palm: 480px;
 $on-laptop: 768px;
-$on-desktop: 1600px;	
+$on-desktop: 1600px;
 $on-widescreen: 1900px;
 $pad: 30px;
 
@@ -50,9 +50,9 @@ $pad: 30px;
 					margin-bottom: 24px;
 				}
 .module-portfolio p	{
-					margin-bottom: $spacing-unit / 6; /* counters that set in base.scss */					
+					margin-bottom: $spacing-unit / 6; /* counters that set in base.scss */
 }
-				
+
 .page-content	{
 				margin-top: 30px;
 }
@@ -79,7 +79,7 @@ $pad: 30px;
 				.wrapper, a.post-link  {
 				font-size: 20px;
 			}
-	
+
 }
 
 
@@ -213,4 +213,3 @@ $pad: 30px;
         "syntax-highlighting",
 		"helpers"
 ;
-
