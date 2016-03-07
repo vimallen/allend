@@ -4,7 +4,6 @@ author: Dave Allen
 layout: post
 permalink: /wp-setup/
 category: wordpress
-draft: true
 ---
 
 Instructions for new WordPress install

@@ -13,7 +13,6 @@ layout: default
 
   <ul class="post-list">
     {% for post in site.posts %}
-	  {% unless post.draft %} <!--private posts. Mark posts in front matter as draft: true http://kellysutton.com/2015/02/18/public-drafts-with-jekyll.html-->
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
@@ -22,7 +21,6 @@ layout: default
         </h2>
 		   {{ post.excerpt | truncatewords:20 }}
       </li>
-	  {% endunless %} <!--private posts-->
     {% endfor %}
   </ul>
 
