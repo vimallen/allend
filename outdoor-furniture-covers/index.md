@@ -6,6 +6,8 @@ exclude_from_nav: true
 permalink: /outdoor-furniture-covers/
 ---
 I&#8217;ve been creating the Andy Thornton outdoor furniture brochure for a few years now. Hope you don&#8217;t mind a bit of a scroll…
+
+<figure><img src="../images/cover-outdoor-2016.jpg" alt="cover for Andy Thornton outdoor furniture 2016" /></figure>
 <figure><img src="../images/cover-Outdoor2015-400.jpg" alt="cover-Outdoor2015" /></figure>
 <figure><img src="../images/cover-Outdoor2014.jpg" alt="cover-Outdoor2014" /></figure>
 <figure><img src="../images/cover-outdoor-2013.jpg" alt="cover-outdoor-2013" /></figure>
