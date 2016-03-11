@@ -12,6 +12,4 @@ A 32-page brochure featuring the company&#8217;s latest ranges of contract quali
 <figure><img src="../images/AT-Outdoor-2015-spread-02.jpg" alt="Andy Thornton outdoor furniture 2015 brochure spread" /></figure>
 <figure><img src="../images/AT-Outdoor-2015-spread-03.jpg" alt="Andy Thornton outdoor furniture 2015 brochure spread" /></figure>
 
- [1]: /outdoor-furniture-covers/ 
-
-
+ [1]: /outdoor-furniture-covers/

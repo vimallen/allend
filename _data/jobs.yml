@@ -1,3 +1,8 @@
+-   name: "Outdoor furniture 2016"
+    description: "36 page brochure"
+    client: "Andy Thornton Ltd"
+    image: "../images/thumb-outdoor-2016.jpg"
+    link: "/outdoor-furniture-2016-from-Andy-Thornton/"
 -   name: "A Supplement"
     description: "36 page brochure"
     client: "Andy Thornton Ltd"
@@ -48,4 +53,3 @@
     client: "RFLC Applied"
     image: "../images/thumb-rflc.jpg"
     link: "/rflc-applied/"
-
