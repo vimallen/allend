@@ -1,3 +1,8 @@
+-   name: "Andy Thornton Vintage Style"
+    description: "160-page catalogue"
+    client: "Andy Thornton Ltd"
+    image: "../images/thumb-vintage-style.jpg"
+    link: "/vintage-style-from-andy-thornton/"
 -   name: "Outdoor furniture 2016"
     description: "36 page brochure"
     client: "Andy Thornton Ltd"
