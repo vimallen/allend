@@ -10,7 +10,8 @@
 <meta name="keywords" content="{{ page.keywords }}" />
 {% else %}
 <meta name="keywords" content="graphic designer, huddersfield, andy thornton, website design, indesign" />
-{% endif %} 
+{% endif %}
+{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
