@@ -100,7 +100,7 @@ a {
  */
 blockquote {
     color: $grey-color-dark;
-    border-left: 4px solid $grey-color-light;
+    border-left: 4px solid $grey-color-dark;
     padding-left: $spacing-unit / 2;
 	/* font-size: 16px; */
     font-style: italic;
@@ -214,6 +214,3 @@ pre {
 		transform: rotate(10deg);
 	}
 }
-
-
-
