@@ -56,6 +56,10 @@
 &:not(:first-child) {
      margin-left: 20px;
 }*/
+
+&:hover {
+	color: $hover-color;
+}
 	}
 	@include media-query($on-palm) {
 		position: absolute;
